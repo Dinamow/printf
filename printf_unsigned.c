@@ -10,7 +10,7 @@ int printf_unsigned(va_list args)
 	int num, last = n % 10, digit, exp = 1;
 	int  i = 1;
 
-	n = n / 10;.
+	n = n / 10;
 	num = n;
 
 	if (last < 0)
